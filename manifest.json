@@ -1,0 +1,15 @@
+{
+  "name": "Script Injector",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "An extension that runs user defined scripts",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Script Injection"
+  },
+  "permissions": ["https://*/*", "http://*/*", "tabs"],
+  "web_accessible_resources": ["scripts/*.js"]
+}
