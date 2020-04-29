@@ -1,30 +1,68 @@
-# 2020-04-29 - Script Runner Chrome Extension
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Announcements
+## Available Scripts
 
-1. In order to focus on troubleshooting & support during the hackathon, we are moving off Twitch.
-1. You will be voting on each others' projects at the end of Code Review.
-1. This Friday is the kickoff of our first PlatformHack. This is where we start building https://mintbean.io into an open source, web-based platform. [Github is here](https://github.com/Mintbean/MintbeanPlatform), please star + fork and see the [Issues Tab](https://github.com/MintbeanHackathons/MintbeanPlatform/issues) to see how to contribute!
+In the project directory, you can run:
 
-## Start here:
+### `npm start`
 
-1. Read [General Information](./General%20Information.md)
-2. Read [Challenge](./Challenge.md)
-3. Fork this repo, clone it, and get started! 
-4. At 3pm, we stop coding and start code reviews. (Instructions will be posted at 3pm)
-5. At 3.45pm, code review ends and peer scoring begins. (Instructions will be posted at 3pm)
-6. At 4pm, the hackathon ends.
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## CareerHack Guide
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Please see the guide here! https://www.mintbean.io/guidebook/careerhack-hackathons
+### `npm test`
 
-## Timetable
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-| Start | End  | Description |
-|-------|------|-------------|
-| 12:00pm EST  | 12:30pm EST | Orientation for newcomers and people who need a refresh. Conducted via Discord. **_(Mandatory for newcomers. Regulars can get a head start on the project!)_** |
-| 12:30pm EST  | 3:00pm EST | Part 1 - Programming. Solo, heads-down. |
-| 3:00pm EST  | 3:30pm EST | Code Review and scoring - how-to instructions. **_(Mandatory for newcomers. Regulars can get a head start on code reviews!)_** |
-| 3:30pm EST  | 4:00pm EST | Part 2 - Code Review and scoring |
-| 4:00pm EST  | 4:30pm EST | Hireside Chats with a Guest Speaker **_(Depending on speaker availability)_** |
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
